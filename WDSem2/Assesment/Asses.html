@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Result System</title>
+</head>
+<link rel="stylesheet" href="Asses.css">
+<body>
+
+    <div class="container">
+    <h2>Student Result System</h2>
+
+    <input type="text" id="name" placeholder="Student Name"><br>
+    <input type="text" id="roll" placeholder="Roll Number"><br>
+    <input type="number" id="math" placeholder="Math Marks"><br>
+    <input type="number" id="science" placeholder="Science Marks"><br>
+    <input type="number" id="english" placeholder="English Marks"><br>
+
+<button onclick="addStudent()">Add Student</button>
+<hr>
+
+<button onclick="displayStudents()">Display All Students</button>
+<button onclick="showTotal()">Total Marks</button>
+<button onclick="showAverage()">Average Marks</button>
+<button onclick="above80()">Above 80 Average</button>
+<button onclick="failedStudents()">Failed Students</button>
+<button onclick="countStudents()">Count Students</button>
+
+<div id="output"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

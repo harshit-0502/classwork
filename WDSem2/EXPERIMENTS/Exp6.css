@@ -1,0 +1,26 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    margin-top: 50px;
+    transition: 0.3s;
+}
+
+h1 {
+    color: darkblue;
+}
+
+#para {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+input {
+    padding: 8px;
+    width: 250px;
+}

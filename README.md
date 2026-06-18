@@ -1,7 +1,7 @@
 THIS REPOSITORY CONTAINS COLLEGE REGULAR WORKS OF THE CLASSROOMS
 
-Student Name --> Gopal Maheshwari
+Student Name --> Harshit Sharma
 
-Section --> CSE 12
+Section --> CSE 19
 
-Subject -- Web Designing Workshop-II | 25 VA 251
+

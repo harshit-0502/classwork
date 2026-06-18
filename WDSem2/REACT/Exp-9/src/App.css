@@ -1,0 +1,125 @@
+/* App.css */
+
+/* Reset basic margins and set a soft background color */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8; /* Soft grayish-blue background */
+}
+
+/* Center the form on the screen */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* The main card container */
+.form-card {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08); /* Pleasant soft shadow */
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.form-card h2 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  color: #1a1a1a;
+  font-size: 22px;
+}
+
+/* Form Layout */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Spacing between inputs */
+  margin-bottom: 20px;
+}
+
+/* Input Fields Styling */
+input {
+  padding: 12px 15px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #008000;
+  box-shadow: 0 0 0 3px rgba(0, 128, 0, 0.15); /* Green glow on focus */
+}
+
+/* Button Styling */
+button {
+  background-color: #008000;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+  width: max-content;
+  margin: 10px auto 0 auto;
+  padding: 10px 30px;
+}
+
+button:hover {
+  background-color: #006600;
+}
+
+button:active {
+  transform: scale(0.98); /* Slight click effect */
+}
+
+/* Feedback Messages */
+.message {
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.message.success {
+  color: #008000;
+}
+
+.message.error {
+  color: #d9534f;
+}
+
+/* Registered Users Box */
+.users-list-container {
+  background-color: #e8f5e9; /* Very light green */
+  padding: 15px 20px;
+  border-radius: 8px;
+  text-align: left;
+  border: 1px solid #c8e6c9;
+}
+
+.users-list-container h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #2e7d32;
+  text-align: center;
+}
+
+.users-list-container ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0;
+  color: #333;
+}
+
+.users-list-container li {
+  margin-bottom: 6px;
+  font-size: 14px;
+}
